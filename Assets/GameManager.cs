@@ -156,11 +156,11 @@ public class GameManager : MonoBehaviour
         x = endGame.GetComponent<RectTransform>().sizeDelta.x;
         y = endGame.GetComponent<RectTransform>().sizeDelta.y;
 
-        endGame.GetComponent<RectTransform>().GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2((350f/450f)*x, (100f/400f)*y);
+        endGame.GetComponent<RectTransform>().GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2((400f/450f)*x, (100f/400f)*y);
         endGame.GetComponent<RectTransform>().GetChild(0).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, (68f/400f)*y);
         endGame.GetComponent<RectTransform>().GetChild(0).GetComponent<Text>().fontSize = (int) ((45f/100f)*endGame.GetComponent<RectTransform>().GetChild(0).GetComponent<RectTransform>().sizeDelta.y);
 
-        endGame.GetComponent<RectTransform>().GetChild(1).GetComponent<RectTransform>().sizeDelta = new Vector2((300f/450f)*x, (100f/400f)*y);
+        endGame.GetComponent<RectTransform>().GetChild(1).GetComponent<RectTransform>().sizeDelta = new Vector2((350f/450f)*x, (100f/400f)*y);
         endGame.GetComponent<RectTransform>().GetChild(1).GetComponent<RectTransform>().anchoredPosition = new Vector2(0, (-48f/400f)*y);
         endGame.GetComponent<RectTransform>().GetChild(1).GetChild(0).GetComponent<Text>().fontSize = (int) ((29f/100f)*endGame.GetComponent<RectTransform>().GetChild(1).GetComponent<RectTransform>().sizeDelta.y);
 
